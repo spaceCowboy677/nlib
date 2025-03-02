@@ -1,3 +1,4 @@
+#include "../lib/lu.h"
 #include "../lib/utils.h"
 #include <stdio.h>
 
