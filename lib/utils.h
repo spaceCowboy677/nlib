@@ -1,6 +1,14 @@
+#ifndef UTILS_H
+#define UTILS_H
 
+// typedef unsigned short uint;
 void error(char error_text[]);
 
+#endif // !UTILS_H
+
+// standard library
+
+/*
 float *vector(int low, int high);
 
 int *ivector(int low, int high);
@@ -41,3 +49,4 @@ void free_convert_matrix(float **b, int low_row, int high_row, int low_col,
                          int high_col);
 
 void linspace(void *begin, void *end, int spacing);
+*/

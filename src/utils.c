@@ -1,4 +1,3 @@
-#include <malloc.h>
 #include <stdio.h>
 
 void error(char error_text[]) {
@@ -11,6 +10,7 @@ void error(char error_text[]) {
   exit(1);
 }
 
+/*
 float *vector(int low, int high) {
   // Allocate a vector of floats
   float *v;
@@ -163,3 +163,4 @@ void free_convert_matrix(float **b, int low_row, int high_row, int low_col,
                          int high_col) {
   free((char *)(b + low_row));
 }
+*/
